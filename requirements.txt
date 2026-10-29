@@ -1,0 +1,11 @@
+# Step 1 - crawler (also used to talk to the local Ollama server)
+requests>=2.31
+beautifulsoup4>=4.12
+
+# Step 2 - local embeddings + vector store
+sentence-transformers>=3.0
+chromadb>=0.5
+
+# Steps 3-6 - agent graph and chat screen
+langgraph>=0.2
+gradio>=4.44

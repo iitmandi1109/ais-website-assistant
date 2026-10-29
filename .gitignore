@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+data/chroma/
+
+
+# Assignment brief (not part of the solution)
+*.pdf
